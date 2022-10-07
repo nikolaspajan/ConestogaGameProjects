@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9020082621119537899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9020082621119537901}
+  - component: {fileID: 9020082621119537898}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9020082621119537901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020082621119537899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9020082621119537898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9020082621119537899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 484eac2a705d2f54c9cfbb1e73a857da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BG
+    clip: {fileID: 8300000, guid: 0b826cb76bca0bc4c90b27b5a110e780, type: 3}
+    volume: 0.145
+    pitch: 0.391
+    loop: 1
+    source: {fileID: 0}
+  - name: SwordSwing
+    clip: {fileID: 8300000, guid: 3342e835281dfc14b91610bce37ccecc, type: 3}
+    volume: 0.168
+    pitch: 0.486
+    loop: 0
+    source: {fileID: 0}
+  - name: Hurt
+    clip: {fileID: 8300000, guid: 4a7a2956607de7749ba82f65cf782aa6, type: 3}
+    volume: 0.145
+    pitch: 0.391
+    loop: 0
+    source: {fileID: 0}
+  - name: Death
+    clip: {fileID: 8300000, guid: ce4f0a90cbb92514384182980c2f15c9, type: 3}
+    volume: 0.145
+    pitch: 0.391
+    loop: 0
+    source: {fileID: 0}
+  - name: HurtEnemy
+    clip: {fileID: 8300000, guid: 66b47e7994247844f9bfa11cbe68b4fc, type: 3}
+    volume: 0.057
+    pitch: 0.161
+    loop: 0
+    source: {fileID: 0}
+  - name: Health
+    clip: {fileID: 8300000, guid: abfe358d3526c6a4ab7b24f71c28e5ff, type: 3}
+    volume: 0.145
+    pitch: 0.391
+    loop: 0
+    source: {fileID: 0}
+  - name: Walking
+    clip: {fileID: 8300000, guid: 52221bb134cf7f849a0d6df1fc58eb30, type: 3}
+    volume: 0.075
+    pitch: 0.234
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 8cc8f5423b637b6478d8673e70249bcd, type: 3}
+    volume: 0.075
+    pitch: 0.234
+    loop: 0
+    source: {fileID: 0}
